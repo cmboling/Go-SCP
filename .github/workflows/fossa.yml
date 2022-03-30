@@ -27,7 +27,7 @@ jobs:
       - uses: cmboling/fossa-action@allow-branch-option 
         with:
           api-key: ${{ env.FOSSA_API_KEY }}
-          branch: ${{ github.base_ref }}
+          branch: ${{ github.ref }}
           # branch: $GITHUB_REF
 
       - uses: cmboling/fossa-action@allow-branch-option 
