@@ -34,8 +34,6 @@ jobs:
         with:
           api-key: ${{env.FOSSA_API_KEY}}
           run-tests: true
-          branch: ${{ github.ref }}
-          # branch: $GITHUB_REF
       
 #       - name: Running FOSSA CLI
 #         run: |
