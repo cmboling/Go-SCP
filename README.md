@@ -1,6 +1,7 @@
 You can download this book in the following formats: [PDF][12], [Mobi][13] and
 [ePub][14].
 
+
 # Introduction
 
 Go Language - Web Application Secure Coding Practices is a guide written for
