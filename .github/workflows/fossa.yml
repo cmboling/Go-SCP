@@ -26,15 +26,15 @@ jobs:
 
       - uses: cmboling/fossa-action@allow-branch-option 
         with:
-          api-key: ${{env.FOSSA_API_KEY}}
-          branch: $GITHUB_BASE_REF
+          api-key: ${{ env.FOSSA_API_KEY }}
+          branch: ${{ github.ref }}
           # branch: $GITHUB_REF
 
       - uses: cmboling/fossa-action@allow-branch-option 
         with:
           api-key: ${{env.FOSSA_API_KEY}}
           run-tests: true
-          branch: $GITHUB_BASE_REF
+          branch: ${{ github.ref }}
           # branch: $GITHUB_REF
       
 #       - name: Running FOSSA CLI
